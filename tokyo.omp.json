@@ -64,10 +64,16 @@
             "type": "node"
           },
           {
-            "foreground": "#4063DB",
+            "foreground": "#0e8ac8",
             "style": "powerline",
             "template": "[\ue738 {{ .Full }}]",
             "type": "java"
+          },
+          {
+            "foreground": "#306998",
+            "style": "powerline",
+            "template": "[\ue235 {{ .Full }}]",
+            "type": "python"
           },
           {
             "foreground": "#ffa5d8",
