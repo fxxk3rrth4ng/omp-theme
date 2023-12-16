@@ -65,7 +65,7 @@
           },
           {
             "foreground": "#0e8ac8",
-            "style": "plain",
+            "style": "powerline",
             "template": "\ue738 {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }}",
             "trailing_diamond": "\ue0b4 ",
             "type": "java"
