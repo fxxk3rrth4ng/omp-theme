@@ -53,6 +53,24 @@
             "type": "kubectl"
           },
           {
+            "foreground": "#3C873A",
+            "properties": {
+              "fetch_package_manager": true,
+              "npm_icon": " <#cc3a3a>\ue5fa</> ",
+              "yarn_icon": " <#348cba>\ue6a7</>"
+            },
+            "style": "powerline",
+            "template": "[<#ffffff>\ue718</>{{ if .PackageManagerIcon }}{{ .PackageManagerIcon }} {{ end }}{{ .Full }}]",
+            "type": "node"
+          },
+          {
+            "foreground": "#0e8ac8",
+            "style": "plain",
+            "template": "\ue738 {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }}",
+            "trailing_diamond": "\ue0b4 ",
+            "type": "java"
+          },
+          {
             "foreground": "#ffa5d8",
             "style": "powerline",
             "template": "[<#ffffff>\uea6c</> Error, check your command]",
