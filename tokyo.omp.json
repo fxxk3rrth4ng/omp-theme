@@ -21,15 +21,6 @@
             "type": "executiontime"
           },
           {
-            "foreground": "#7eb8da",
-            "properties": {
-              "time_format": "2006-01-02 (Mon) 15:04:05"
-            },
-            "style": "diamond",
-            "template": "[<#ffffff>\uf073</> {{ .CurrentDate | date .Format }}]",
-            "type": "time"
-          },
-          {
             "foreground": "#ffa5d8",
             "properties": {
               "fetch_stash_count": true,
@@ -83,6 +74,20 @@
           }
         ],
         "type": "prompt"
+      },
+      {
+        "alignment": "right",
+        "segments": [
+          {
+            "foreground": "#7eb8da",
+            "properties": {
+              "time_format": "2006-01-02(Mon) 15:04:05"
+            },
+            "style": "diamond",
+            "template": "[<#ffffff>\uf073</> {{ .CurrentDate | date .Format }}]",
+            "type": "time"
+          }
+        ]
       },
       {
         "alignment": "left",
