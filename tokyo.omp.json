@@ -23,7 +23,7 @@
           {
             "foreground": "#7eb8da",
             "properties": {
-              "time_format": "Jan 2, 2006 15:04:05"
+              "time_format": "2006-01-02 (Mon) 15:04:05"
             },
             "style": "diamond",
             "template": "[<#ffffff>\uf073</> {{ .CurrentDate | date .Format }}]",
