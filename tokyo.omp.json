@@ -87,7 +87,8 @@
             "template": "[<#ffffff>\uf073</> {{ .CurrentDate | date .Format }}]",
             "type": "time"
           }
-        ]
+        ],
+        "type": "prompt"
       },
       {
         "alignment": "left",
